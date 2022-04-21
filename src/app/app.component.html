@@ -1,0 +1,17 @@
+<h1>Angular clipboard CDK</h1>
+
+<h3>Method 1</h3>
+<button cdkCopyToClipboard="You copied me!">Click to copy</button>
+
+<hr />
+
+<h3>Method 2</h3>
+<div id="content">Content that needs to be copied to the clipboard.</div>
+<button (click)="copyToClipboard()">Click to copy</button>
+
+<hr />
+
+<fieldset>
+  <legend>An area to paste in to test</legend>
+  <textarea rows="10"></textarea>
+</fieldset>
